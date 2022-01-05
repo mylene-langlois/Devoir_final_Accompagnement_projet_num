@@ -1,0 +1,137 @@
+
+DMP DU PROJET "RESSOURCES TEXTUELLES NUMERISEES"
+   Plan de gestion de données créé à l'aide de DMP OPIDoR, basé sur le modèle "ANR - Modèle de PGD (français)" fourni par Agence nationale de la recherche (ANR). 
+
+RENSEIGNEMENTS SUR LE PLAN
+Titre du planDMP du projet "RessOUrces tExtuelles Numérisées"LivrableLivrable D9.5VersionVersion finaleObjet/périmètre du planAnalyse d'un corpus de fanfictions sur la mythologie gréco-latine.LanguefraDate de création2021-10-26Date de dernière modification2021-10-26IdentifiantMythFanType d'identifiantURLLicenceCreative Commons Attribution Non Commercial Share Alike 4.0 InternationalDocuments (publications, rapports, brevets….), sites web associés? Wattpad
+? Fanfiction
+? Archive of Our Own
+? WebtoonsRENSEIGNEMENTS SUR LE PROJET
+Titre du projetRessOUrces tExtuelles NumériséesAcronymeROUENRésuméAnalyse des procédés didactiques d'écriture numérique d'un corpus de fanfictions afin d'envisager la création d'un cours en Education au Média et à l'Information. Sources de financement? Agence Nationale de la Recherche : ROUEN-100122Date de début2021-01-10Date de fin2022-01-10Partenaires? University of Rouen () Référence du plan expérimentalTitreFanfictionsIdentifiantFan-00Type d'identifiantURLProduits de recherche : 
+1.          Fanfictions            (Texte)       
+
+Contributeurs
+
+ContributeursRôlesMylène LANGLOIS? Coordinateur du projet
+? Personne contact pour les données
+? Responsable du plan de gestion de données
+
+DMP DU PROJET "RESSOURCES TEXTUELLES NUMERISEES"
+
+
+1. DESCRIPTION DES DONNEES ET COLLECTE OU REUTILISATION DE DONNEES EXISTANTES
+
+
+1a. Comment de nouvelles données seront-elles recueillies ou produites et/ou comment des données préexistantes seront-elles réutilisées ?
+
+
+Les nouvelles données textuelles seront extraites des sites Wattpad.com, Fanfictions.net, Archiveofourown.org et Webtoons.com et recueillies dans Open Office Writer. Les titres des chapitres et les noms propres seront ensuite extraits dans un fichier Open Office Calc, afin de réaliser des statistiques sur la récurrence des noms des personnages évoqués. Puisque les fanfictions sont protégées par le droit d'auteur, il s'agira de ne faire que des citations courtes et d'analyser les procédés d'écriture, la démarche et la réflexion de chaque auteur. 
+
+
+
+1b. Quelles données (types, formats et volumes par ex.) seront collectées ou produites ?
+
+
+Les données textuelles collectées seront stockées dans un format .odt et les données produites dans un format .ods, car ce sont des formats ouverts disponibles gratuitement et compatibles avec Windows, Linux, Appel Mac OS, etc. Le but est de faciliter l'accès aux données et de permettre la modification des données produites, dans le cadre de l'ouverture des données de la recherche universitaire. Le corpus étant réduit à un vingtaine de fanfictions, les fichiers Texte ne seront pas très volumineux et ne prendront pas beaucoup de place dans l'espace de stockage. 
+
+
+
+2. DOCUMENTATION ET QUALITE DES DONNEES
+
+2A. QUELLES METADONNEES ET QUELLE DOCUMENTATION (PAR EXEMPLE METHODOLOGIE DE COLLECTE ET MODE D'ORGANISATION DES DONNEES) ACCOMPAGNERONT LES DONNEES ?
+
+
+Les métadonnées qui accompagneront les fanfictions seront : le nombre de vues, de "j'aime" et de commentaires de chaque chapitres et de l'œuvre dans son ensemble, ainsi que la date à laquelle les chapitres ont été publiés et les mots-clés qui permettent de rechercher l'histoire dans le moteur de recherche de la plateforme en ligne. Elles seront collectées dans une base de données en SQL grâce à un programme codé en Python. Ces informations seront obtenues et enregistrées dans la base de données avec des liens vers des fichiers "Read me" codés en Markdown.
+
+
+
+2b. Quelles mesures de contrôle de la qualité des données seront mises en œuvre ?
+
+
+Etant donné que le corpus d'une vingtaine de fanfictions sera méticuleusement composé par la chercheuse dans le cadre de son mémoire de recherches, en fonction des thèmes mythologiques abordés, du nombre de chapitres, de l'avis des lecteurs, etc., le contrôle de la qualité et de la conformité de la collecte des données sera dès lors assuré. 
+
+
+
+3. STOCKAGE ET SAUVEGARDE PENDANT LE PROCESSUS DE RECHERCHE
+
+
+3a. Comment les données et les métadonnées seront-elles stockées et sauvegardées tout au long du processus de recherche ?
+
+
+Les données seront stockées sur l'ordinateur personnel de la chercheuse, sur son espace de stockage universitaire en ligne et sur un espace de stockage externe (clé USB), pour assurer des conditions pérennes de stockage. La sauvegarde sera effectuée à chaque fois que de nouvelles données seront collectées ou produites, manuellement ou automatique selon les systèmes de stockage.
+
+
+
+3b. Comment la sécurité des données et la protection des données sensibles seront-elles assurées tout au long du processus de recherche ?
+
+
+Puisque les données sont sauvegardées grâce à trois systèmes de stockage différents, en cas d'incident, il suffira à la chercheuse de récupérer les données sur un des deux systèmes restants. L'ordinateur et l'espace de stockage sont protégés par un mot de passe et l'ordinateur possède un anti-virus performant. En ce qui concerne la protection des données, les données collectées sont disponibles par tous sur les sites de fanfictions en question. Il ne s'agit pas de données sensibles, mais de textes soumis au droit d'auteur.
+
+
+
+4. EXIGENCES LEGALES ET ETHIQUES, CODES DE CONDUITE 
+
+4A. SI DES DONNEES A CARACTERE PERSONNEL SONT TRAITEES, COMMENT LE RESPECT DES DISPOSITIONS DE LA LEGISLATION SUR LES DONNEES A CARACTERE PERSONNEL ET SUR LA SECURITE DES DONNEES SERA-T-IL ASSURE ?
+
+
+Il sera demandé à chaque auteur le droit de traiter leurs données dans le cadre d'un travail de recherche universitaire. Les données ne seront pas publiées dans le projet de recherche, mais renverront aux liens des sites concernés. Seules quelques citations courtes seront utilisées pour analyser la démarche de l'auteur. 
+
+
+4B. COMMENT LES AUTRES QUESTIONS JURIDIQUES, COMME LA TITULARITE OU LES DROITS DE PROPRIETE INTELLECTUELLE SUR LES DONNEES, SERONT-ELLES ABORDEES ? QUELLE EST LA LEGISLATION APPLICABLE EN LA MATIERE ?
+
+
+Comme les données textuelles concernent des fanfictions, elles sont soumises au droit d'auteur. Ainsi, théoriquement, dans le cadre d'un travail universitaire, il faut nécessairement faire référence à l'auteur et faire des citations courtes du texte pour procéder à leur analyse. Il n'est pas interdit selon la loi de diffuser le corpus si les auteurs sont mentionnés, puisque les textes ne seront pas modifiés.
+
+
+
+4c. Comment les éventuelles questions éthiques seront-elles prises en compte, les codes déontologiques respectés ?
+
+
+Pour une question d'éthique, la chercheuse demandera tout de même l'accord des auteurs pour publier, sur une autre plateforme que celles qu'ils utilisent, les textes du corpus dans le cadre du projet ROUEN. En effet, cela pourrait éviter qu'ils l'attaquent pour atteinte à leur réputation, bien que le projet n'est pas mené pour décrédibiliser de travail de ces auteurs-amateurs. Ainsi, s'ils l'y autorisent, les données pourront être accessibles aux membres de la recherche universitaire, voire au grand public. 
+ 
+
+
+
+5. PARTAGE DES DONNEES ET CONSERVATION A LONG TERME
+
+
+5a. Comment et quand les données seront-elles partagées ? Y-a-t-il des restrictions au partage des données ou des raisons de définir un embargo ?
+
+
+Les données pourront être retrouvées et partagées sur l'archive ouverte HAL, qui permet la diffusion d'articles scientifiques. Les fichiers textes sont envoyés au CINES pour garantir leur accessibilité à long terme. Les délais de publication dépendent des délais de modération de la plateforme, qui accepte ou non la publication des articles. 
+
+
+5B. COMMENT LES DONNEES A CONSERVER SERONT-ELLES SELECTIONNEES ET OU SERONT-ELLES PRESERVEES SUR LE LONG TERME (PAR EX. UN ENTREPOT DE DONNEES OU UNE ARCHIVE) ?
+
+
+Les données ne seront pas divulguées sans l'accord de leur auteur. Elles seront utilisées sous forme de statistiques ou de citation pour analyser la démarche de l'auteur-amateur dans le cadre de la mobilisation de ses connaissances. Les données seront déposées dans Nakala mis en place par la TGIR Huma-Num, qui aide à valoriser la recherche scientifique. 
+
+
+
+5c. Quelles méthodes ou quels outils logiciels seront nécessaires pour accéder et utiliser les données ?
+
+
+Les utilisateurs potentiels auront besoin d'avoir accès à Open Office qui est gratuit et largement compatible avec les systèmes d'exploitation. Ils pourront aussi télécharger MySQL Workbench pour avoir accès aux bases de données. Les données seront partagées sur Nakala, ce qui offre une accessibilité et une citabilité des données sur le long terme.  
+
+
+5D. COMMENT L'ATTRIBUTION D'UN IDENTIFIANT UNIQUE ET PERENNE (COMME LE DOI) SERA-T-ELLE ASSUREE POUR CHAQUE JEU DE DONNEES ?
+
+
+Les données pourraient être réutilisées dans le cadre d'un autre projet de recherche plus large sur les fanfictions. Nakala attribuera donc un DOI pour chaque document, puisqu'il s'agit d'un entrepôt pérenne de confiance. 
+
+
+
+6. RESPONSABILITES ET RESSOURCES EN MATIERE DE GESTION DES DONNEES
+
+6A. QUI (PAR EXEMPLE ROLE, POSITION ET INSTITUTION DE RATTACHEMENT) SERA RESPONSABLE DE LA GESTION DES DONNEES (C'EST-A-DIRE LE GESTIONNAIRE DES DONNEES) ?
+
+
+La chercheuse sera responsable de la gestion des données, épaulée par les membres de l'IRHIS de l'université de Rouen, pour réaliser son premier projet en sciences humaines. 
+
+
+6B. QUELLES SERONT LES RESSOURCES (BUDGET ET TEMPS ALLOUES) DEDIEES A LA GESTION DES DONNEES PERMETTANT DE S'ASSURER QUE LES DONNEES SERONT FAIR (FACILE A TROUVER, ACCESSIBLE, INTEROPERABLE, REUTILISABLE) ?
+
+
+La gestion des données dans le cadre du projet ROUEN se fera sur un an. Peu de frais de stockage sont à prévoir, à part l'achat d'une clé USB et le coût de réparation d'un ordinateur portable si un incident advient. Il faut également prévoir le salaire de la chercheuse, que l'on peut estimer à environ 700 euros par mois. Aucun frais d'entrepôt et d'archivage n'est engagé, car Nakala est un service gratuit.
+
+
