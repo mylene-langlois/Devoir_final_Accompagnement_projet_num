@@ -6,9 +6,9 @@ Créatrice du dépôt : Mylène Langlois
 
 Le dépôt pour le devoir final d'*Accompagnement du projet numérique* contient : 
 * le PGD au format .pdf 
-* le PGD au format .pdf 
+* le PGD au format .txt
 
- Je suis à la fois les instructions du cours, le guide de GitHub et la documentation du Markdown pour rédiger mon devoir. [Voici le lien du guide](https://guides.github.com/activities/hello-world/)
+ J'ai suivi à la fois les instructions du cours, le guide de GitHub et la documentation du Markdown pour rédiger mon devoir. [Voici le lien du guide](https://guides.github.com/activities/hello-world/)
 
 Je peux même mettre une photo des balises Markdown. 
 
